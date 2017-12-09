@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+	
+	char inp;
+	scanf("%c",&inp);
+	if((inp=='a')||(inp=='e')||(inp=='i')||(inp=='o')||(inp=='u')||(inp=='A')||(inp=='E')||(inp=='I')||(inp=='O')||(inp=='U'))
+	{
+		printf("Vowel");
+	}
+	else
+	printf("Consonant");
+
+}
