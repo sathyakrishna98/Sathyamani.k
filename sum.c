@@ -5,7 +5,7 @@ int num,i,sum=0;
 scanf("%d",&num);
 for(i=1;i<=n;i++)
 {
-su=sum+i;
+sum=sum+i;
 }
 printf("%d",sum);
 }
